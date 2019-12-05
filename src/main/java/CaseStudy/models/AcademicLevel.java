@@ -1,6 +1,8 @@
 package CaseStudy.models;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "levels")
@@ -9,8 +11,10 @@ public class AcademicLevel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    @NotEmpty
+    @Size(min = 2, max = 50)
     private String nameLevel;
+    @NotEmpty
     private String specialized;
 
     public AcademicLevel() {
