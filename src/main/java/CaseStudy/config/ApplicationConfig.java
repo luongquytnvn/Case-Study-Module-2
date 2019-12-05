@@ -1,5 +1,7 @@
 package CaseStudy.config;
 
+import CaseStudy.services.AcademicLevelService;
+import CaseStudy.services.AcademicLevelServiceImpl;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
@@ -47,10 +49,10 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
 //    public BookService bookService(){
 //        return new BookServiceImpl();
 //    }
-//    @Bean
-//    public CategoryServices categoryServices(){
-//        return new CategoryServiceImpl();
-//    }
+    @Bean
+    public AcademicLevelService academicLevelService() {
+        return new AcademicLevelServiceImpl();
+    }
 
     //Thymeleaf Configuration
     @Bean
@@ -104,7 +106,7 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/employee-management?useUnicode=yes&characterEncoding=UTF-8");
         dataSource.setUsername("root");
-        dataSource.setPassword("123456");
+        dataSource.setPassword("hoangganhap2");
         return dataSource;
     }
 
