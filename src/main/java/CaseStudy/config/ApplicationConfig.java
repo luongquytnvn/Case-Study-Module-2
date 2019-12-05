@@ -54,7 +54,7 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
 
     //Thymeleaf Configuration
     @Bean
-    public SpringResourceTemplateResolver templateResolver() {
+    public SpringResourceTemplateResolver templateResolver() throws BeansException {
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setApplicationContext(applicationContext);
         templateResolver.setPrefix("/WEB-INF/views/");
