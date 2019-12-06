@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add5a1ee-efd9-472d-9495-1e5637778f0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/academicLevel/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/academicLevel/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/academicLevel/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/academicLevel/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/61674042-a223-4dea-9a48-43ce85aa3443.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/61674042-a223-4dea-9a48-43ce85aa3443.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CaseStudy/config/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CaseStudy/config/ApplicationConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CaseStudy/controllers/AcademicLevelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CaseStudy/controllers/AcademicLevelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CaseStudy/models/AcademicLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CaseStudy/models/AcademicLevel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CaseStudy/repositories/AcademicLevelRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CaseStudy/repositories/AcademicLevelRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CaseStudy/services/AcademicLevelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CaseStudy/services/AcademicLevelService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/EmployeeManagement-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/EmployeeManagement-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CaseStudy/controllers/AcademicLevelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CaseStudy/controllers/AcademicLevelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CaseStudy/models/AcademicLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CaseStudy/models/AcademicLevel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -225,7 +205,8 @@
       <option name="presentableId" value="Default" />
       <updated>1575516939513</updated>
       <workItem from="1575516950758" duration="1789000" />
-      <workItem from="1575528246875" duration="13332000" />
+      <workItem from="1575528246875" duration="13478000" />
+      <workItem from="1575594825872" duration="606000" />
     </task>
     <servers />
   </component>
