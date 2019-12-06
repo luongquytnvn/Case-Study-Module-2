@@ -1,5 +1,7 @@
 package CaseStudy.config;
 
+import CaseStudy.services.PositionService;
+import CaseStudy.services.impl.PositionServiceImpl;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
@@ -121,5 +123,9 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
         properties.setProperty("hibernate.hbm2ddl.auto", "update");
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
         return properties;
+    }
+    @Bean
+    public PositionService positionService(){
+        return new PositionServiceImpl();
     }
 }
